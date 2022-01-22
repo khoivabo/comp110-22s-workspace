@@ -26,7 +26,7 @@ if len(choosen_word) == 5:
         if instances_found == 0:
             print("No instances of " + searched_character + " found in " + choosen_word)
         if instances_found == 1:
-             print(str(instances_found) + " instance of " + searched_character + " found in " + choosen_word)
+            print(str(instances_found) + " instance of " + searched_character + " found in " + choosen_word)
         else:
             print(str(instances_found) + " instances of " + searched_character + " found in " + choosen_word)
     else:
