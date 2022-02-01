@@ -1,10 +1,9 @@
 """Ex02_One_shot_Wordle."""
 
-
 __author__ = "730277137"
 
 
-secret_word: str = ("apple")
+secret_word: str = ("python")
 player_guess: str = (input(f"What is your {len(secret_word)}-letter guess? "))
 
 WHITE_BOX: str = "\U00002B1C"
