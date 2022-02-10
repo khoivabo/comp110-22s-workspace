@@ -6,7 +6,7 @@ __author__ = "730277137"
 from readline import write_history_file
 
 
-secret_word: str = ("python")
+secret_word: str = ("condom")
 player_guess: str = (input(f"What is your {len(secret_word)}-letter guess? "))
 played: bool = False
 
@@ -28,10 +28,8 @@ while (not played):
             while not foobar and foobar_tracker < len(secret_word):
                 if player_guess[word_index] == secret_word[foobar_tracker]:
                     foobar = True
-                    print(player_guess[word_index])
                 else:
                     foobar_tracker += 1
-                    print(player_guess[word_index])
             if foobar:
                 emoji += YELLOW_BOX
             else:
