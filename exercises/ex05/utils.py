@@ -1,6 +1,6 @@
+""""Ex05 Lists"""
 
 __author__ = "730277137"
-
 
 def only_evens (x: list[int]) -> list[int]:
     """Give even numbers from a list"""
